@@ -1,0 +1,5 @@
+
+sts: site
+  roles:
+  - ping
+  - TASK_LNX_BASIC_INSTALL
