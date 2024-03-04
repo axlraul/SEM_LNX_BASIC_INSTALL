@@ -1,5 +1,4 @@
-
-sts: site
+- hosts: new_nodes
   roles:
   - ping
   - TASK_LNX_BASIC_INSTALL
