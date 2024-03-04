@@ -1,7 +1,0 @@
-- name: Install
-  shell: yum -y install wget mlocate 
-  register: install_result
-
-- name: Install result
-  debug:
-    msg: "{{ install_result.stdout_lines }}"

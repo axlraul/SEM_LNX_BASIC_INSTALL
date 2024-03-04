@@ -1,4 +1,5 @@
 - hosts: new_nodes
+  become: true
   roles:
   - ping
   - TASK_LNX_BASIC_INSTALL
